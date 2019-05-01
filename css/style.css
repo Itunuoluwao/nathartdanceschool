@@ -212,7 +212,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .top_header_area .social_nav li a {
   font-size: 14px;
-  color: #fff;
+  color: rgb(250, 245, 245);
   padding: 0;
   text-align: center;
   height: 24px;
@@ -2045,7 +2045,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End All contact Info Css */
 /*--------------------------------------------------*/
 .footer_area {
-  background: url("../images/footer.jpg") no-repeat;
+  background: url("../images/g3.jpg") no-repeat;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -2287,7 +2287,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   }
 
   .header_aera_tow {
-    background: #fff !important;
+    background: rgb(8, 8, 8) !important;
   }
 
   .header_aera_tow .navbar_right_fulid {
