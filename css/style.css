@@ -488,7 +488,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   content: "";
   position: absolute;
   z-index: -1;
-  background: #fff;
+  background: rgb(8, 8, 8);
   top: 0;
   bottom: 0;
   left: 0;
@@ -589,7 +589,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .banner_area .breadcrumb li a {
   font: 400 14px "Roboto", sans-serif;
-  color: #fefefe;
+  color: #030303;
 }
 .banner_area .breadcrumb li a.active {
   color: #f6b60b;
@@ -906,20 +906,19 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .our_services_tow .architecture_area .portfolio_filter_2 {
   border: 1px solid #dfe3e4;
-  display: block;
+  display: inline-block;
+  margin-left: 200px;
   overflow: hidden;
 }
 .our_services_tow .architecture_area .portfolio_filter_2 ul {
   padding: 0;
 }
 .our_services_tow .architecture_area .portfolio_filter_2 ul li {
-  float: left;
   list-style: none;
-  width: 20%;
+  width: auto;
   text-align: center;
   transition: all 300ms linear 0s;
   border-right: 1px solid #dfe3e4;
-  height: 150px;
 }
 .our_services_tow .architecture_area .portfolio_filter_2 ul li:last-child {
   border-right: 0;
@@ -945,16 +944,16 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .our_services_tow .architecture_area .portfolio_2 {
   padding-top: 90px;
 }
-.our_services_tow .architecture_area .portfolio_2 .single_facilities img {
+.our_services_tow .architecture_area .portfolio_2  img {
   max-width: 100%;
 }
-.our_services_tow .architecture_area .portfolio_2 .single_facilities .who_we_area .subtittle {
+.our_services_tow .architecture_area .portfolio_2  .who_we_area .subtittle {
   padding-bottom: 30px;
 }
-.our_services_tow .architecture_area .portfolio_2 .single_facilities .who_we_area .subtittle h2:after {
+.our_services_tow .architecture_area .portfolio_2  .who_we_area .subtittle h2:after {
   background: #f6b60b;
 }
-.our_services_tow .architecture_area .portfolio_2 .single_facilities .who_we_area p {
+.our_services_tow .architecture_area .portfolio_2  .who_we_area p {
   font: 400 14px/26px "Roboto", sans-serif;
   color: #555555;
   padding-bottom: 30px;
@@ -1243,9 +1242,11 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .featured_works .featured_gallery .gallery_iner {
   position: relative;
   overflow: hidden;
+  height: 300px;
 }
 .featured_works .featured_gallery .gallery_iner img {
   max-width: 100%;
+  object-fit: contain
 }
 .featured_works .featured_gallery .gallery_iner:after {
   content: "";
@@ -2369,8 +2370,14 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     margin: 0 auto;
     width: 90%;
   }
+  .our_services_tow .architecture_area .portfolio_filter_2 {
+    margin-left: 0;
+  }
 }
 @media (max-width: 767px) {
+  .our_services_tow .architecture_area .portfolio_filter_2 {
+    margin-left: 0;
+  }
   .top_header_area .top_nav li {
     display: inline-block;
   }
