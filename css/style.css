@@ -81,7 +81,7 @@ This files contents are outlined below.
 /* Section Title*/
 .tittle {
   text-align: center;
-  text-transform: uppercase;
+  
 }
 .tittle h2 {
   font: 400 24px "Oswald", sans-serif;
