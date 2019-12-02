@@ -456,7 +456,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font: 400 24px "Roboto", sans-serif;
 }
 .slider_area .slider_inner .camera_caption div h3 {
-  color: #fff;
+  color: rgb(17, 17, 17);
   font: 400 30px "Roboto", sans-serif;
   padding-top: 27px;
 }
@@ -488,7 +488,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   content: "";
   position: absolute;
   z-index: -1;
-  background: rgb(8, 8, 8);
+  background: rgb(247, 245, 245);
   top: 0;
   bottom: 0;
   left: 0;
@@ -559,7 +559,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End slider_area_tow */
 /* Banner Area */
 .banner_area {
-  background: url("../images/nbbg.JPG") no-repeat fixed;
+  background: url("https://res.cloudinary.com/itunuo/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1574262277/naths/nathpro6_g0duue.jpg") no-repeat fixed;
   background-position: center;
   text-align: center;
   position: relative;
